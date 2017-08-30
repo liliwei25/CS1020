@@ -1,0 +1,34 @@
+import java.util.*;
+
+class LCS 
+{
+  public LCS(Scanner sc) 
+  {  
+    String input1 = sc.next();
+    String input2 = sc.next();
+    
+    System.out.println(substring(input1, input2));
+  }  
+  private int substring(String input1, String input2)
+  {
+    return substring(input1, input2, 0, 0);
+  }
+  private int substring(String input1, String input2, int curr, int count)
+  {
+    if(input2.length() == 0 || curr == input1.length() - 1) return count;
+    else
+    {
+      if(input2.indexOf(input1.charAt(curr)) != -1)
+      {
+        input2.replaceFirst(Character.toString(input1.charAt(curr)), "");
+        return substring(input1, input2, curr + 1, count + 1);
+      }
+      return substring(input1, input2, curr + 1, count);
+    }
+  }
+  public static void main(String[] args) {    
+    Scanner sc = new Scanner(System.in);
+    LCS lcs = new LCS(sc);
+
+  }
+}

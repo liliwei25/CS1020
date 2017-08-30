@@ -1,0 +1,15 @@
+message John Mark 1
+John 1
+Mark 1
+Betty @
+
+message John Betty 10
+John 1,10
+Mark 1
+Betty 10
+
+reply Mark John 31 1
+John 10,1,31
+Mark 1,31
+Betty 10
+

@@ -1,0 +1,43 @@
+import java.util.*;
+
+class Soldier {
+ public static void main(String[] args) 
+ {
+   Scanner scn = new Scanner(System.in);
+   
+   int num = scn.nextInt();
+   
+   Stack<Integer> tunnel = new Stack<Integer>();
+   Stack<Integer> start = new Stack<Integer>();
+   
+   for(int i = num; i >= 1; i--)
+   {
+     start.push(i);
+   }
+   while(scn.hasNextInt())
+   {
+     for(int i = 0; i < num; i++)
+     {
+       int input = scn.nextInt();
+       if(!start.empty() && input == start.peek())
+       {
+         start.pop();
+       }
+       else if(!tunnel.empty() && input == tunnel.peek())
+       {
+         tunnel.pop();
+         end.pop();
+       }
+       else
+       {
+         if(start.empty()) break;
+         tunnel.push(start.pop());
+       }
+       //if(!end.empty() && !start.empty() && !tunnel.empty() && end.peek()!= start.peek() && end.peek()!= tunnel.peek())
+         //break;
+     }
+     if(end.empty()) System.out.println("YES");
+     else System.out.println("NO");
+   }
+ }
+}

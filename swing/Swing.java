@@ -1,0 +1,48 @@
+import java.util.*;
+
+public class Swing {
+
+    public static void main(String[] args) 
+    {
+      Queue<Long> temp = new LinkedList<Long>();
+      Stack<Long> trees = new Stack<Long>();
+      
+        //implement your main method here
+      Scanner scn = new Scanner(System.in);
+      
+      int num = scn.nextInt();
+      for(int i = 0; i < num; i ++)
+      {
+        temp.offer(scn.nextLong());
+      }
+      trees.push(temp.poll());
+      int count = 0;
+      while(temp.peek()!=null)
+      {
+        if(temp.peek()!= null && !trees.empty() && temp.peek() > trees.peek())
+        {
+          while((temp.peek()!= null) && !trees.empty() && temp.peek() > trees.peek())
+          {
+            trees.pop();
+            count++;
+          }
+        }
+        if(trees.empty())
+          trees.push(temp.poll());
+        else if(temp.peek()!= null && temp.peek() == trees.peek())
+        {
+          count++;
+          temp.poll();
+        }
+        else if(temp.peek()!= null && temp.peek() < trees.peek())
+        {
+          trees.push(temp.poll());
+          count++;
+        }
+        //if(temp.poll() == null) count--;
+        //if(trees.empty()) count--;
+      }
+      System.out.println(count);
+    }
+
+}

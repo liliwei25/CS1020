@@ -1,0 +1,180 @@
+message Tom Mcgrady 1
+Tom 1
+Mcgrady 1
+Jane @
+Jennifer @
+
+message Tom Mcgrady 2
+Tom 1,2
+Mcgrady 1,2
+Jane @
+Jennifer @
+
+message Tom Mcgrady 3
+Tom 1,2,3
+Mcgrady 1,2,3
+Jane @
+Jennifer @
+
+message Mcgrady Tom 4
+Tom 1,2,3,4
+Mcgrady 1,2,3,4
+Jane @
+Jennifer @
+
+message Jane Tom 5
+Tom 1,2,3,4,5
+Mcgrady 1,2,3,4
+Jane 5
+Jennifer @
+
+message Jane Jennifer 6
+Tom 1,2,3,4,5
+Mcgrady 1,2,3,4
+Jane 5,6
+Jennifer 6
+
+message Jane Mcgrady 7
+Tom 1,2,3,4,5
+Mcgrady 1,2,3,4,7
+Jane 5,6,7
+Jennifer 6
+
+message Jennifer Jane 8
+Tom 1,2,3,4,5
+Mcgrady 1,2,3,4,7
+Jane 5,6,7,8
+Jennifer 6,8
+
+message Jennifer Tom 9
+Tom 1,2,3,4,5,9
+Mcgrady 1,2,3,4,7
+Jane 5,6,7,8
+Jennifer 6,8,9
+
+message Jennifer Mcgrady 10
+Tom 1,2,3,4,5,9
+Mcgrady 1,2,3,4,7,10
+Jane 5,6,7,8
+Jennifer 6,8,9,10
+
+message Tom Mcgrady 11
+Tom 1,2,3,4,5,9,11
+Mcgrady 1,2,3,4,7,10,11
+Jane 5,6,7,8
+Jennifer 6,8,9,10
+
+message Tom Mcgrady 12
+Tom 1,2,3,4,5,9,11,12
+Mcgrady 1,2,3,4,7,10,11,12
+Jane 5,6,7,8
+Jennifer 6,8,9,10
+
+message Tom Mcgrady 13
+Tom 1,2,3,4,5,9,11,12,13
+Mcgrady 1,2,3,4,7,10,11,12,13
+Jane 5,6,7,8
+Jennifer 6,8,9,10
+
+message Tom Mcgrady 14
+Tom 1,2,3,4,5,9,11,12,13,14
+Mcgrady 1,2,3,4,7,10,11,12,13,14
+Jane 5,6,7,8
+Jennifer 6,8,9,10
+
+message Tom Mcgrady 15
+Tom 2,3,4,5,9,11,12,13,14,15
+Mcgrady 2,3,4,7,10,11,12,13,14,15
+Jane 5,6,7,8
+Jennifer 6,8,9,10
+
+message Tom Mcgrady 16
+Tom 3,4,5,9,11,12,13,14,15,16
+Mcgrady 3,4,7,10,11,12,13,14,15,16
+Jane 5,6,7,8
+Jennifer 6,8,9,10
+
+message Tom Mcgrady 17
+Tom 4,5,9,11,12,13,14,15,16,17
+Mcgrady 4,7,10,11,12,13,14,15,16,17
+Jane 5,6,7,8
+Jennifer 6,8,9,10
+
+message Jane Jennifer 18
+Tom 4,5,9,11,12,13,14,15,16,17
+Mcgrady 4,7,10,11,12,13,14,15,16,17
+Jane 5,6,7,8,18
+Jennifer 6,8,9,10,18
+
+message Jane Jennifer 19
+Tom 4,5,9,11,12,13,14,15,16,17
+Mcgrady 4,7,10,11,12,13,14,15,16,17
+Jane 5,6,7,8,18,19
+Jennifer 6,8,9,10,18,19
+
+message Jane Jennifer 20
+Tom 4,5,9,11,12,13,14,15,16,17
+Mcgrady 4,7,10,11,12,13,14,15,16,17
+Jane 5,6,7,8,18,19,20
+Jennifer 6,8,9,10,18,19,20
+
+message Jane Tom 21
+Tom 5,9,11,12,13,14,15,16,17,21
+Mcgrady 4,7,10,11,12,13,14,15,16,17
+Jane 5,6,7,8,18,19,20,21
+Jennifer 6,8,9,10,18,19,20
+
+message Jane Mcgrady 22
+Tom 5,9,11,12,13,14,15,16,17,21
+Mcgrady 7,10,11,12,13,14,15,16,17,22
+Jane 5,6,7,8,18,19,20,21,22
+Jennifer 6,8,9,10,18,19,20
+
+message Jane Tom 23
+Tom 9,11,12,13,14,15,16,17,21,23
+Mcgrady 7,10,11,12,13,14,15,16,17,22
+Jane 5,6,7,8,18,19,20,21,22,23
+Jennifer 6,8,9,10,18,19,20
+
+message Jane Mcgrady 24
+Tom 9,11,12,13,14,15,16,17,21,23
+Mcgrady 10,11,12,13,14,15,16,17,22,24
+Jane 6,7,8,18,19,20,21,22,23,24
+Jennifer 6,8,9,10,18,19,20
+
+message Jennifer Jane 25
+Tom 9,11,12,13,14,15,16,17,21,23
+Mcgrady 10,11,12,13,14,15,16,17,22,24
+Jane 7,8,18,19,20,21,22,23,24,25
+Jennifer 6,8,9,10,18,19,20,25
+
+message Jennifer Jane 26
+Tom 9,11,12,13,14,15,16,17,21,23
+Mcgrady 10,11,12,13,14,15,16,17,22,24
+Jane 8,18,19,20,21,22,23,24,25,26
+Jennifer 6,8,9,10,18,19,20,25,26
+
+message Jennifer Jane 27
+Tom 9,11,12,13,14,15,16,17,21,23
+Mcgrady 10,11,12,13,14,15,16,17,22,24
+Jane 18,19,20,21,22,23,24,25,26,27
+Jennifer 6,8,9,10,18,19,20,25,26,27
+
+message Jennifer Tom 28
+Tom 11,12,13,14,15,16,17,21,23,28
+Mcgrady 10,11,12,13,14,15,16,17,22,24
+Jane 18,19,20,21,22,23,24,25,26,27
+Jennifer 8,9,10,18,19,20,25,26,27,28
+
+message Jennifer Mcgrady 29
+Tom 11,12,13,14,15,16,17,21,23,28
+Mcgrady 11,12,13,14,15,16,17,22,24,29
+Jane 18,19,20,21,22,23,24,25,26,27
+Jennifer 9,10,18,19,20,25,26,27,28,29
+
+message Mcgrady Tom 30
+Tom 12,13,14,15,16,17,21,23,28,30
+Mcgrady 12,13,14,15,16,17,22,24,29,30
+Jane 18,19,20,21,22,23,24,25,26,27
+Jennifer 9,10,18,19,20,25,26,27,28,29
+

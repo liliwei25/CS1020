@@ -1,0 +1,165 @@
+hire Thomas 3
+Thomas 3
+
+hire Ash 4
+Thomas 3
+Ash 4
+
+hire Tommy 1
+Tommy 1
+Thomas 3
+Ash 4
+
+hire Fred 1
+Fred 1
+Tommy 1
+Thomas 3
+Ash 4
+
+hire Manson 2
+Fred 1
+Tommy 1
+Manson 2
+Thomas 3
+Ash 4
+
+hire Kingston 1
+Kingston 1
+Fred 1
+Tommy 1
+Manson 2
+Thomas 3
+Ash 4
+
+hire Tammy 1
+Tammy 1
+Kingston 1
+Fred 1
+Tommy 1
+Manson 2
+Thomas 3
+Ash 4
+
+hire Kimmy 1
+Kimmy 1
+Tammy 1
+Kingston 1
+Fred 1
+Tommy 1
+Manson 2
+Thomas 3
+Ash 4
+
+promote Kingston 2
+Kimmy 1
+Tammy 1
+Fred 1
+Tommy 1
+Kingston 2
+Manson 2
+Thomas 3
+Ash 4
+
+hire Cory 2
+Kimmy 1
+Tammy 1
+Fred 1
+Tommy 1
+Cory 2
+Kingston 2
+Manson 2
+Thomas 3
+Ash 4
+
+hire Matthew 3
+Kimmy 1
+Tammy 1
+Fred 1
+Tommy 1
+Cory 2
+Kingston 2
+Manson 2
+Matthew 3
+Thomas 3
+Ash 4
+
+hire John 4
+Kimmy 1
+Tammy 1
+Fred 1
+Tommy 1
+Cory 2
+Kingston 2
+Manson 2
+Matthew 3
+Thomas 3
+John 4
+Ash 4
+
+fire 5
+Kingston 2
+Manson 2
+Matthew 3
+Thomas 3
+John 4
+Ash 4
+
+hire George 2
+George 2
+Kingston 2
+Manson 2
+Matthew 3
+Thomas 3
+John 4
+Ash 4
+
+promote Manson 3
+George 2
+Kingston 2
+Manson 3
+Matthew 3
+Thomas 3
+John 4
+Ash 4
+
+fire 2
+Manson 3
+Matthew 3
+Thomas 3
+John 4
+Ash 4
+
+promote Ash 5
+Manson 3
+Matthew 3
+Thomas 3
+John 4
+Ash 5
+
+hire Alan 1
+Alan 1
+Manson 3
+Matthew 3
+Thomas 3
+John 4
+Ash 5
+
+hire Faust 1
+Faust 1
+Alan 1
+Manson 3
+Matthew 3
+Thomas 3
+John 4
+Ash 5
+
+hire Meph 1
+Meph 1
+Faust 1
+Alan 1
+Manson 3
+Matthew 3
+Thomas 3
+John 4
+Ash 5
+

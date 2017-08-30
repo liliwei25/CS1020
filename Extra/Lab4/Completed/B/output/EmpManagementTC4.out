@@ -1,0 +1,36 @@
+hire Cindy 2
+Cindy 2
+
+hire Nathaniel 3
+Cindy 2
+Nathaniel 3
+
+hire Chad 1
+Chad 1
+Cindy 2
+Nathaniel 3
+
+hire Henry 2
+Chad 1
+Henry 2
+Cindy 2
+Nathaniel 3
+
+promote Cindy 3
+Chad 1
+Henry 2
+Cindy 3
+Nathaniel 3
+
+promote Henry 3
+Chad 1
+Henry 3
+Cindy 3
+Nathaniel 3
+
+promote Chad 3
+Chad 3
+Henry 3
+Cindy 3
+Nathaniel 3
+

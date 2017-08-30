@@ -1,0 +1,15 @@
+hire Amy 1
+Amy 1
+
+hire Hank 2
+Amy 1
+Hank 2
+
+hire Betty 3
+Amy 1
+Hank 2
+Betty 3
+
+fire 3
+@
+

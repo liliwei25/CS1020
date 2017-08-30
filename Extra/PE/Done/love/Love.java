@@ -1,0 +1,59 @@
+import java.util.*;
+
+public class Love 
+{
+  LinkedList<String> list;
+  HashMap<String, Integer> map;
+  public void run() 
+  {
+    Scanner scn = new Scanner(System.in);
+    
+    int number = scn.nextInt();
+    
+    list = new LinkedList<String>();
+    map = new HashMap<String, Integer>();
+    
+    int length = 0;
+    for(int i = 0; i < number; i++)
+    {
+      String input = scn.next();
+      list.add(input);
+      length += input.length();
+      if(map.containsKey(input))
+      {
+        map.put(input, map.remove(input) + 1);
+      }
+      else
+      {
+        map.put(input, 1);
+      }
+    }
+    boolean change = true;
+    while(change)//while(map.get(list.get(0)) > 1 || map.get(list.get(list.size()-1)) > 1)
+    {
+      if(map.get(list.get(0)) > 1)
+      {
+        map.put(list.get(0), map.remove(list.get(0)) - 1);
+        length -= list.get(0).length();
+        list.remove(0);
+        change = true;
+      }
+      else if(map.get(list.get(list.size()-1)) > 1)
+      {
+        map.put(list.get(list.size()-1), map.remove(list.get(list.size()-1)) - 1);
+        length -= list.get(list.size()-1).length();
+        list.remove(list.size()-1);
+        change = true;
+      }
+      else
+        change = false;
+    }
+    System.out.println(length);
+  }
+  
+  public static void main(String[] args) 
+  {
+    Love myLove = new Love();
+    myLove.run();
+  }
+}

@@ -1,0 +1,27 @@
+hire John 1
+John 1
+
+hire Mark 4
+John 1
+Mark 4
+
+hire Betty 3
+John 1
+Betty 3
+Mark 4
+
+hire Abel 4
+John 1
+Betty 3
+Abel 4
+Mark 4
+
+fire 2
+Abel 4
+Mark 4
+
+hire Jack 2
+Jack 2
+Abel 4
+Mark 4
+

@@ -1,0 +1,65 @@
+message John Cammy 1
+John 1
+Mark @
+Cammy 1
+
+message John Cammy 2
+John 1,2
+Mark @
+Cammy 1,2
+
+message John Cammy 3
+John 1,2,3
+Mark @
+Cammy 1,2,3
+
+message John Cammy 4
+John 1,2,3,4
+Mark @
+Cammy 1,2,3,4
+
+message John Cammy 5
+John 1,2,3,4,5
+Mark @
+Cammy 1,2,3,4,5
+
+message Cammy John 26
+John 1,2,3,4,5,26
+Mark @
+Cammy 1,2,3,4,5,26
+
+message Cammy John 27
+John 1,2,3,4,5,26,27
+Mark @
+Cammy 1,2,3,4,5,26,27
+
+message Cammy John 28
+John 1,2,3,4,5,26,27,28
+Mark @
+Cammy 1,2,3,4,5,26,27,28
+
+message Cammy John 29
+John 1,2,3,4,5,26,27,28,29
+Mark @
+Cammy 1,2,3,4,5,26,27,28,29
+
+message Cammy John 30
+John 1,2,3,4,5,26,27,28,29,30
+Mark @
+Cammy 1,2,3,4,5,26,27,28,29,30
+
+message Cammy John 31
+John 2,3,4,5,26,27,28,29,30,31
+Mark @
+Cammy 2,3,4,5,26,27,28,29,30,31
+
+message Cammy John 32
+John 3,4,5,26,27,28,29,30,31,32
+Mark @
+Cammy 3,4,5,26,27,28,29,30,31,32
+
+message Cammy John 33
+John 4,5,26,27,28,29,30,31,32,33
+Mark @
+Cammy 4,5,26,27,28,29,30,31,32,33
+

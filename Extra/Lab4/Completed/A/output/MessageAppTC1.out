@@ -1,0 +1,18 @@
+message John Mark 1
+John 1
+Mark 1
+Betty @
+Tom @
+
+message John Betty 10
+John 1,10
+Mark 1
+Betty 10
+Tom @
+
+message Mark Betty 21
+John 1,10
+Mark 1,21
+Betty 10,21
+Tom @
+
